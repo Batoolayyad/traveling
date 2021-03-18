@@ -20,4 +20,4 @@ else if (favoriteCity=='Istanbul'){document.write('<img src="https://www.nomadep
 else{ alert("choose between the cites that are showing");
 }
 
-document.write('<h3>this is your favorite city</h3>')
+document.write('<h3>this is your favorite city ' + favoriteCity +'</h3>');
