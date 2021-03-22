@@ -1,16 +1,18 @@
 //welcoming alert
+function getCityName() {
+    
 
 //var userName= prompt("inter your name please");
 alert ('Hello ')
 
 
 //asking the web visitor about his fevorite city 
-var favoriteCity= prompt("what is your favorite city between Dubai, Brcelona and Istanbul?");
+var favoriteCity= prompt("What is your favorite city between Dubai, Brcelona and Istanbul?");
 
 
 //keep asking until the visitor enter one of the chooises
 while((favoriteCity!='Dubai')&&(favoriteCity!='Brcelona')&&(favoriteCity!='Istanbul')){
-    favoriteCity=prompt("please select between the cities that have been mention");
+    favoriteCity=prompt("Please select between the cities that have been mention");
 }
 
 //show a pic of the city that has been choose
@@ -29,7 +31,7 @@ else if (favoriteCity=='Istanbul'){
     
 } 
 
-document.write('<h3>here is your favorite city ' + favoriteCity +'</h3>');
+document.write('<h3>Here is your favorite city ' + favoriteCity +'</h3>');
 
 
 //for loop to choose how many pictures the visitor want the pic to show 
@@ -44,6 +46,5 @@ document.write(result);
 //else{ alert("choose between the cites that are showing");}
 
 // write the favorite city name for the visitor under the pic
-
-
-
+}
+getCityName();
