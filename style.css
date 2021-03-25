@@ -1,23 +1,23 @@
 head {background-color: #dcf3f7;
 }
 
-h1 { font-size: 400%; color: #04171d; text-align: center;
+h1 { font-size: 400%; color: #05232c; text-align: center;
 }
 header {
     background-color: rgb(132, 218, 230);
+    margin-top: 0%;
+    padding-top: 1.5em;
 }
 header nav{
      width: 100% ;
-     height: 70px;  
-    background-color: rgb(47, 130, 168);
+     height: auto;  
+    background-color: rgb(25, 100, 134);
     display: inline-block;
     
 }
 header nav ul li{
     display: inline-block;
-    padding-left: 0%;
-    padding-top: 0%;
-    padding-bottom: 0%;
+    
     margin-left: 5%;
 }
 ul{
@@ -27,9 +27,9 @@ ul{
 header nav ul li a{
     color: rgb(240, 245, 245);
     text-decoration: none;
-    font-weight: 800;
+    font-weight:bold;
     float: left;
-    padding-bottom: 50%;
+   margin-bottom: 1.5em;
 }
 
 body {background-color: rgb(212, 234, 248);}
@@ -53,4 +53,31 @@ footer p{
     
 }
 
- 
+.contant .first {
+    line-height: 1.5em;
+    float:left;
+    display:block;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+ .contant .second {
+     line-height: 1.5em;
+     float: right;
+     padding-top: 1em;
+    display: block;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+ .introduction{
+     line-height: 1.5em;
+     padding-top: 2em;
+     padding-left: 1.5em;
+     padding-right: 1.5em;
+    }
+
+ h2 {
+     padding-top: 2em;
+     padding-left: 1em;
+     padding-right: 1.5em;
+}

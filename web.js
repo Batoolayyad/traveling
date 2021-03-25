@@ -1,12 +1,12 @@
 //welcoming alert
-function getCityName() {
-    
+ userName= prompt('Please, enter your name')
+ alert ('Hello '+ userName)
 
-//var userName= prompt("inter your name please");
-alert ('Hello ')
 
 
 //asking the web visitor about his fevorite city 
+ function getCityName() {
+    
 var favoriteCity= prompt("What is your favorite city between Dubai, Brcelona and Istanbul?");
 
 
